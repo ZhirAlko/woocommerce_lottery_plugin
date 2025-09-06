@@ -1,0 +1,439 @@
+/*
+ * WooCommerce Lottery Plugin 2.2.1-beta, Generated: 2025-07-02 09:30:00 EEST
+ * Admin CSS for lottery form, table, and settings page
+ */
+.wclp-admin-wrap {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wclp-lottery-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: relative;
+    z-index: 10000; /* Ensure form is above other elements */
+}
+
+.wclp-form-container {
+    margin-top: 20px;
+    z-index: 9999;
+    position: relative;
+    display: none;
+}
+
+.wclp-form-container.active {
+    display: block !important;
+}
+
+.wclp-form-loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.wclp-form-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 1200px) {
+    .wclp-form-columns {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .wclp-form-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+.wclp-form-column {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.wclp-form-column h3 {
+    font-size: 1.4em;
+    margin: 10px 0 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.wclp-form-subsection {
+    margin: 20px 0;
+    padding-left: 10px;
+    border-left: 2px solid #007bff;
+}
+
+.wclp-form-subsection h4 {
+    font-size: 1.2em;
+    margin: 0 0 15px;
+    color: #444;
+}
+
+.wclp-form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wclp-form-grid-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.wclp-form-grid-row .wclp-form-field {
+    flex: 1;
+    min-width: 120px;
+}
+
+.wclp-form-grid-row .wclp-form-field.wclp-form-field-wide {
+    flex: 2;
+    min-width: 200px;
+}
+
+.wclp-form-grid-row .wclp-form-field.wclp-form-field-narrow {
+    flex: 0.5;
+    min-width: 100px;
+}
+
+.wclp-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.wclp-form-field label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+.wclp-form-field input[type="text"],
+.wclp-form-field input[type="number"],
+.wclp-form-field input[type="url"],
+.wclp-form-field input[type="datetime-local"],
+.wclp-form-field select,
+.wclp-form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.wclp-form-field .wclp-product-select,
+.wclp-form-field .wclp-prize-product {
+    width: 100%;
+}
+
+.wclp-form-field input:focus,
+.wclp-form-field select:focus,
+.wclp-form-field textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.wclp-form-field .wclp-color-picker {
+    width: 100px;
+}
+
+.wclp-form-field textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.wclp-form-field input.wclp-error {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+.wclp-form-field .wclp-upload-image,
+.wclp-form-field .wclp-remove-image {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.wclp-form-field .wclp-remove-image {
+    background-color: #dc3545;
+    margin-left: 8px;
+}
+
+.wclp-form-field .wclp-upload-image:hover,
+.wclp-form-field .wclp-remove-image:hover {
+    background-color: #0056b3;
+}
+
+.wclp-prizes {
+    margin: 20px 0;
+}
+
+.wclp-prize {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    cursor: move;
+}
+
+.wclp-prize-count {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.wclp-prize .wclp-remove-prize {
+    color: #dc3545;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.wclp-prize .wclp-remove-prize:hover {
+    text-decoration: underline;
+}
+
+.wclp-form-field input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.wclp-form-field input[type="url"] {
+    margin-top: 8px;
+}
+
+.wclp-table-container {
+    overflow-x: auto;
+}
+
+.wclp-admin-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.wclp-admin-table th,
+.wclp-admin-table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.wclp-admin-table .column-id {
+    width: 60px;
+    min-width: 60px;
+}
+
+.wclp-admin-table .column-name {
+    width: 250px;
+    min-width: 180px;
+}
+
+.wclp-admin-table .column-product {
+    width: 180px;
+    min-width: 120px;
+}
+
+.wclp-admin-table .column-prizes {
+    width: 120px;
+    min-width: 100px;
+}
+
+.wclp-admin-table .column-status {
+    width: 80px;
+    min-width: 80px;
+}
+
+.wclp-admin-table .column-tickets-sold {
+    width: 120px;
+    min-width: 100px;
+}
+
+.wclp-admin-table .column-draw-details {
+    width: 180px;
+    min-width: 120px;
+}
+
+.wclp-admin-table .column-winners {
+    width: 180px;
+    min-width: 120px;
+}
+
+.wclp-admin-table .column-shortcode {
+    width: 200px;
+    min-width: 180px;
+}
+
+.wclp-admin-table .column-shortcode select {
+    width: 100px;
+    min-width: 100px;
+}
+
+.wclp-admin-table .column-winners ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+.wclp-shortcode-select {
+    margin-right: 12px;
+    padding: 8px;
+    width: 100px;
+    min-width: 100px;
+}
+
+.wclp-copy-shortcode {
+    padding: 8px 16px;
+    font-size: 0.9em;
+}
+
+.wclp-activate-lottery,
+.wclp-create-lottery,
+.wclp-edit-lottery,
+.wclp-clone-lottery {
+    color: #28a745;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.wclp-activate-lottery:hover,
+.wclp-create-lottery:hover,
+.wclp-edit-lottery:hover,
+.wclp-clone-lottery:hover {
+    text-decoration: underline;
+}
+
+.wclp-add-prize {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.wclp-add-prize:hover {
+    background-color: #218838;
+}
+
+.wclp-spinner {
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.wclp-sticky-position {
+    display: none;
+}
+
+.wclp-sticky-toggle:checked + .wclp-sticky-position {
+    display: block;
+}
+
+.wclp-filter-controls {
+    margin: 20px 0;
+}
+
+.wclp-filter-controls select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.wclp-admin-table th[data-sort] {
+    cursor: pointer;
+}
+
+.wclp-admin-table th .sorting-indicator::after {
+    content: '\f140';
+    font-family: Dashicons;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.wclp-admin-table th.sorted-asc .sorting-indicator::after {
+    content: '\f142';
+}
+
+.wclp-admin-table th.sorted-desc .sorting-indicator::after {
+    content: '\f140';
+}
+
+.wclp-test-random-generator {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wclp-test-random-generator .form-table th {
+    width: 200px;
+}
+
+#wclp-test-result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+@media (max-width: 800px) {
+    .wclp-admin-table .column-product,
+    .wclp-admin-table .column-winners,
+    .wclp-admin-table .column-draw-details {
+        min-width: 100px;
+    }
+    .wclp-admin-table .column-name {
+        min-width: 150px;
+    }
+    .wclp-admin-table .column-prizes,
+    .wclp-admin-table .column-tickets-sold {
+        min-width: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .wclp-table-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .wclp-admin-table {
+        min-width: 500px;
+    }
+    .wclp-admin-table .column-shortcode {
+        min-width: 150px;
+    }
+    .wclp-admin-table .column-name {
+        min-width: 120px;
+    }
+}
+
+.wclp-form-grid.wclp-form-grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 800px) {
+    .wclp-form-grid.wclp-form-grid-two-columns {
+        grid-template-columns: 1fr;
+    }
+}

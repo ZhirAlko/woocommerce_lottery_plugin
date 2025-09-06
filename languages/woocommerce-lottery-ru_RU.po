@@ -1,0 +1,232 @@
+# Translation for WooCommerce Lottery Plugin
+# WooCommerce Lottery Plugin 2.1.0-beta, Generated: 2025-06-07
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Lottery Plugin 2.1.0-beta\n"
+"POT-Creation-Date: 2025-06-07 09:05+0200\n"
+"PO-Revision-Date: 2025-06-07 09:05+0200\n"
+"Last-Translator: @zhiralko\n"
+"Language-Team: xAI\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "WooCommerce Lottery Plugin requires WooCommerce 9.0+"
+msgstr "Плагин WooCommerce Lottery требует WooCommerce 9.0+"
+
+msgid "Lottery name must be 3-100 characters"
+msgstr "Название лотереи должно содержать от 3 до 100 символов"
+
+msgid "Winners count must be 1 to 15% of tickets"
+msgstr "Количество победителей должно быть от 1 до 15% от числа билетов"
+
+msgid "Prizes count must match winners count"
+msgstr "Количество призов должно совпадать с количеством победителей"
+
+msgid "Invalid variable product"
+msgstr "Недопустимый вариативный товар"
+
+msgid "Active lottery for this product already exists"
+msgstr "Активная лотерея для этого товара уже существует"
+
+msgid "Please log in to participate"
+msgstr "Пожалуйста, войдите, чтобы участвовать"
+
+msgid "Invalid lottery"
+msgstr "Недопустимая лотерея"
+
+msgid "Ticket already reserved"
+msgstr "Билет уже зарезервирован"
+
+msgid "Ticket limit reached"
+msgstr "Достигнут лимит билетов"
+
+msgid "Ticket added"
+msgstr "Билет добавлен"
+
+msgid "Ticket removed"
+msgstr "Билет удалён"
+
+msgid "Cart cleared"
+msgstr "Корзина очищена"
+
+msgid "Invalid coupon"
+msgstr "Недействительный купон"
+
+msgid "Coupon applied"
+msgstr "Купон применён"
+
+msgid "Please accept terms"
+msgstr "Пожалуйста, примите условия"
+
+msgid "Error creating user"
+msgstr "Ошибка при создании пользователя"
+
+msgid "Ticket: %s"
+msgstr "Билет: %s"
+
+msgid "Winner: %s (%s)"
+msgstr "Победитель: %s (%s)"
+
+msgid "Prize: %s"
+msgstr "Приз: %s"
+
+msgid "Please log in to view your lotteries."
+msgstr "Пожалуйста, войдите, чтобы просмотреть ваши лотереи."
+
+msgid "My Lotteries"
+msgstr "Мои лотереи"
+
+msgid "Lottery"
+msgstr "Лотерея"
+
+msgid "Numbers"
+msgstr "Номера"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Results"
+msgstr "Результаты"
+
+msgid "No lotteries found."
+msgstr "Лотереи не найдены."
+
+msgid "Winner"
+msgstr "Победитель"
+
+msgid "Not won"
+msgstr "Не выиграл"
+
+msgid "Pending"
+msgstr "В ожидании"
+
+msgid "Dear %s,"
+msgstr "Уважаемый(ая) %s,"
+
+msgid "Congratulations! You have won a prize in the \"%s\" lottery!"
+msgstr "Поздравляем! Вы выиграли приз в лотерее «%s»!"
+
+msgid "Your winning ticket:"
+msgstr "Ваш выигрышный билет:"
+
+msgid "Draw Date:"
+msgstr "Дата розыгрыша:"
+
+msgid "Please contact us to claim your prize."
+msgstr "Пожалуйста, свяжитесь с нами, чтобы получить приз."
+
+msgid "Thank you for participating!"
+msgstr "Спасибо за участие!"
+
+msgid "The \"%s\" lottery has been drawn."
+msgstr "Лотерея «%s» была разыграна."
+
+msgid "Winners:"
+msgstr "Победители:"
+
+msgid "Please review the results in the admin panel."
+msgstr "Пожалуйста, проверьте результаты в панели администратора."
+
+msgid "Lotteries"
+msgstr "Лотереи"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "General Settings"
+msgstr "Общие настройки"
+
+msgid "Notify winners"
+msgstr "Уведомлять победителей"
+
+msgid "Notify admin"
+msgstr "Уведомлять администратора"
+
+msgid "Delete data on uninstall"
+msgstr "Удалять данные при деинсталляции"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Product"
+msgstr "Товар"
+
+msgid "Winners Count"
+msgstr "Количество победителей"
+
+msgid "Grid Settings"
+msgstr "Настройки сетки"
+
+msgid "Ticket Size Large"
+msgstr "Размер билета (большой)"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Sold"
+msgstr "Продано"
+
+msgid "Ends in:"
+msgstr "Заканчивается через:"
+
+msgid "Your Tickets"
+msgstr "Ваши билеты"
+
+msgid "Total:"
+msgstr "Итого:"
+
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Toggle"
+msgstr "Свернуть/Развернуть"
+
+msgid "Promo code"
+msgstr "Промокод"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Email"
+msgstr "Электронная почта"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "I agree to terms"
+msgstr "Я согласен с условиями"
+
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+msgid "Lottery Results"
+msgstr "Результаты лотереи"
+
+msgid "« Previous"
+msgstr "« Предыдущая"
+
+msgid "Next »"
+msgstr "Следующая »"
